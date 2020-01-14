@@ -20,6 +20,11 @@ namespace ApiCrudVolvo.Controllers
             _status = status;
         }
 
+        /// <summary>
+        /// Metodo de busca todos os registro sem necessidade de parametro para localização
+        /// </summary>
+        /// <returns>Lista de Itens cadastrados</returns>
+        /// 
         [HttpGet("[action]")]
         public ActionResult<IEnumerable<Status>> Buscar()
         {
@@ -27,6 +32,11 @@ namespace ApiCrudVolvo.Controllers
             return status.ToList();
         }
 
+        /// <summary>
+        /// Metodo de busca todos os registro sem necessidade de parametro para localização
+        /// </summary>
+        /// <returns>Lista de Itens cadastrados</returns>
+        /// 
         [HttpGet]
         // GET: Categoria
         public ActionResult<IEnumerable<Status>> Index()
@@ -35,6 +45,12 @@ namespace ApiCrudVolvo.Controllers
             return status.ToList();
         }
 
+        /// <summary>
+        /// Utilizando Metodo GET da WebApi para busca item especifico com necessidade de parametro para localização 
+        /// do id do item.
+        /// </summary>
+        /// <param name="id"></param>
+        /// 
         [HttpGet("{id}")]
         // GET: Categoria/Details/5
         public ActionResult<Status> BuscaId(int id)
@@ -43,6 +59,10 @@ namespace ApiCrudVolvo.Controllers
             return status.FirstOrDefault();
         }
 
+        /// <summary>
+        /// Metodo POST utilizado para inclusão de um novo item.
+        /// </summary>
+        /// <returns>Cadastro de Novo Item</returns>
         [HttpPost]
         public ActionResult Create(Status status)
         {
@@ -65,6 +85,10 @@ namespace ApiCrudVolvo.Controllers
             }
         }
 
+        /// <summary>
+        /// Metodo PUT utilizado para alteração de um item de especifico ID.
+        /// </summary>
+        /// <param name="id"></param>
         [HttpPut]
         public ActionResult Edit(Status status)
         {
@@ -84,6 +108,11 @@ namespace ApiCrudVolvo.Controllers
                 return StatusCode(500);
             }
         }
+
+        /// <summary>
+        /// Metodo DELETE utilizado para exclusão de um item de especifico ID.
+        /// </summary>
+        /// <param name="id"></param>
 
         [HttpDelete]
         public ActionResult Delete(Status status)

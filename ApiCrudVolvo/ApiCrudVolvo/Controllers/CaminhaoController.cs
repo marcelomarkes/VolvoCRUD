@@ -27,6 +27,10 @@ namespace ApiCrudVolvo.Controllers
             return caminhao.ToList();
         }
 
+        /// <summary>
+        /// Metodo de busca todos os registro sem necessidade de parametro para localização
+        /// </summary>
+        /// <returns>Lista de Itens cadastrados</returns>
 
         [HttpGet]
         // GET: Categoria
@@ -35,7 +39,12 @@ namespace ApiCrudVolvo.Controllers
             var caminhao = _caminhao.Listar();
             return caminhao.ToList();
         }
-
+        /// <summary>
+        /// Utilizando Metodo GET da WebApi para busca item especifico com necessidade de parametro para localização 
+        /// do id do item.
+        /// </summary>
+        /// <param name="id"></param>
+        /// 
         [HttpGet("{id}")]
         // GET: Categoria/Details/5
         public ActionResult<Caminhao> BuscaId(int id)
@@ -44,6 +53,10 @@ namespace ApiCrudVolvo.Controllers
             return cat.FirstOrDefault();
         }
 
+        /// <summary>
+        /// Metodo POST utilizado para inclusão de um novo item.
+        /// </summary>
+        /// <returns>Cadastro de Novo Item</returns>
         // POST: Categoria/Create
         [HttpPost]
         public ActionResult Create(Caminhao caminhao)
@@ -67,6 +80,10 @@ namespace ApiCrudVolvo.Controllers
             }
         }
 
+        /// <summary>
+        /// Metodo PUT utilizado para alteração de um item de especifico ID.
+        /// </summary>
+        /// <param name="id"></param>
         // POST: Categoria/Edit/5
         [HttpPut]
         public ActionResult Edit(Caminhao caminhao)
@@ -91,6 +108,11 @@ namespace ApiCrudVolvo.Controllers
             }
         }
 
+        /// <summary>
+        /// Metodo DELETE utilizado para exclusão de um item de especifico ID.
+        /// </summary>
+        /// <param name="id"></param>
+        /// 
         // DELETE: Categoria/Delete/5
         [HttpDelete]
         public ActionResult Delete(Caminhao caminhao)
