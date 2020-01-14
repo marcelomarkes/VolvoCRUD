@@ -1,0 +1,14 @@
+C:\Projetos2MSoftware\ProjetosWeb\ProjetosASP.NET\VolvoCRUD\ApiCrudVolvo\ApiCrudVolvo\bin\Debug\netcoreapp2.2\ApiCrudVolvo.deps.json
+C:\Projetos2MSoftware\ProjetosWeb\ProjetosASP.NET\VolvoCRUD\ApiCrudVolvo\ApiCrudVolvo\bin\Debug\netcoreapp2.2\ApiCrudVolvo.runtimeconfig.json
+C:\Projetos2MSoftware\ProjetosWeb\ProjetosASP.NET\VolvoCRUD\ApiCrudVolvo\ApiCrudVolvo\bin\Debug\netcoreapp2.2\ApiCrudVolvo.runtimeconfig.dev.json
+C:\Projetos2MSoftware\ProjetosWeb\ProjetosASP.NET\VolvoCRUD\ApiCrudVolvo\ApiCrudVolvo\bin\Debug\netcoreapp2.2\ApiCrudVolvo.dll
+C:\Projetos2MSoftware\ProjetosWeb\ProjetosASP.NET\VolvoCRUD\ApiCrudVolvo\ApiCrudVolvo\obj\Debug\netcoreapp2.2\ApiCrudVolvo.csprojAssemblyReference.cache
+C:\Projetos2MSoftware\ProjetosWeb\ProjetosASP.NET\VolvoCRUD\ApiCrudVolvo\ApiCrudVolvo\obj\Debug\netcoreapp2.2\ApiCrudVolvo.csproj.CoreCompileInputs.cache
+C:\Projetos2MSoftware\ProjetosWeb\ProjetosASP.NET\VolvoCRUD\ApiCrudVolvo\ApiCrudVolvo\obj\Debug\netcoreapp2.2\ApiCrudVolvo.RazorAssemblyInfo.cache
+C:\Projetos2MSoftware\ProjetosWeb\ProjetosASP.NET\VolvoCRUD\ApiCrudVolvo\ApiCrudVolvo\obj\Debug\netcoreapp2.2\ApiCrudVolvo.RazorAssemblyInfo.cs
+C:\Projetos2MSoftware\ProjetosWeb\ProjetosASP.NET\VolvoCRUD\ApiCrudVolvo\ApiCrudVolvo\obj\Debug\netcoreapp2.2\ApiCrudVolvo.AssemblyInfoInputs.cache
+C:\Projetos2MSoftware\ProjetosWeb\ProjetosASP.NET\VolvoCRUD\ApiCrudVolvo\ApiCrudVolvo\obj\Debug\netcoreapp2.2\ApiCrudVolvo.AssemblyInfo.cs
+C:\Projetos2MSoftware\ProjetosWeb\ProjetosASP.NET\VolvoCRUD\ApiCrudVolvo\ApiCrudVolvo\obj\Debug\netcoreapp2.2\ApiCrudVolvo.RazorTargetAssemblyInfo.cache
+C:\Projetos2MSoftware\ProjetosWeb\ProjetosASP.NET\VolvoCRUD\ApiCrudVolvo\ApiCrudVolvo\bin\Debug\netcoreapp2.2\ApiCrudVolvo.pdb
+C:\Projetos2MSoftware\ProjetosWeb\ProjetosASP.NET\VolvoCRUD\ApiCrudVolvo\ApiCrudVolvo\obj\Debug\netcoreapp2.2\ApiCrudVolvo.dll
+C:\Projetos2MSoftware\ProjetosWeb\ProjetosASP.NET\VolvoCRUD\ApiCrudVolvo\ApiCrudVolvo\obj\Debug\netcoreapp2.2\ApiCrudVolvo.pdb
